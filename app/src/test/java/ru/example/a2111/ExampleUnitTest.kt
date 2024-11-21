@@ -14,4 +14,9 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+    @Test
+    fun square_isCorrect(){
+        assertEquals(9, Math.pow(3.0,2.0).toInt())
+    }
+
 }
